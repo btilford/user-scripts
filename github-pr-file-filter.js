@@ -6,6 +6,7 @@
 // @author       btilford
 // @match        https://github.com/*/*/pull/*/files*
 // @grant        unsafeWindow
+// @license      MIT
 // ==/UserScript==
 
 (function githubPrFilter() {
