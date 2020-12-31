@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Hide and mark files as viewed using regex pattern.
-// @author       Ben Tilford
+// @author       btilford
 // @match        https://github.com/*/*/pull/*/files*
 // @grant        unsafeWindow
 // ==/UserScript==
