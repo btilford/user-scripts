@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         GitHub PR File Filter
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Hide and mark files as viewed using regex pattern.
+// @namespace    btilford
 // @author       btilford
+// @version      0.1
+// @license      MIT
+// @description  Hide and mark files as viewed using regex pattern.
 // @match        https://github.com/*/*/pull/*/files*
 // @grant        unsafeWindow
-// @license      MIT
 // ==/UserScript==
 
 (function githubPrFilter() {
