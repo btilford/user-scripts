@@ -2,7 +2,7 @@
 // @name         GitHub PR File Filter
 // @namespace    btilford
 // @author       btilford
-// @version      0.1
+// @version      1.0.0
 // @license      MIT
 // @description  Hide and mark files as viewed using regex pattern.
 // @match        https://github.com/*/*/pull/*/files*
