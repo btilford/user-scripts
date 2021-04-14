@@ -5,7 +5,7 @@
 // @version      1.0.0
 // @license      MIT
 // @description  Hide and mark files as viewed using regex pattern.
-// @match        https://github.com/*/*/pull/*/files*
+// @match        https://github.com/*/*/pull/*
 // @grant        unsafeWindow
 // ==/UserScript==
 
@@ -18,7 +18,7 @@
         console.debug('Filtering %d files in PR with pattern %s', files.length, regex);
         return files.filter(_ => {
             const link = _.querySelector('.link-gray-dark');
-            return regex.test(link.title) || regex.test(link.innerText);
+            return link && (regex.test(link.title) || regex.test(link.innerText));
         });
     }
 
